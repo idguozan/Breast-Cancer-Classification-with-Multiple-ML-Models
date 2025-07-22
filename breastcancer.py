@@ -112,7 +112,7 @@ for name, metrics in results.items():
     plt.show()
 
 # ==============================
-# 7. En İyi Modelin Özellik Önemi (Varsa)
+# 7. En İyi Modelin Özellik Önemi 
 # ==============================
 best_model_name = max(results, key=lambda k: results[k]["auc"])
 best_model = results[best_model_name]["model"]
