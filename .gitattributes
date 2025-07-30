@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Language detection fix - Force Python as primary language
+*.py linguist-language=Python
+*.ipynb linguist-documentation
+*.html linguist-documentation
+*.css linguist-documentation
+*.js linguist-documentation
+results/* linguist-documentation
+notebooks/* linguist-documentation
