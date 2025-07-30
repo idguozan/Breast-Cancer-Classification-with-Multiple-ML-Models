@@ -1,0 +1,42 @@
+BREAST CANCER CLASSIFICATION ANALYSIS - FINAL REPORT
+============================================================
+
+Analysis Date: 2025-07-30 15:08:11
+Data File: data/breast-cancer.csv
+
+MODEL PERFORMANCE SUMMARY:
+------------------------------
+              Model  Accuracy  Precision  Recall  F1-Score    AUC  CV Score (Mean)  CV Score (Std)
+Logistic Regression    0.9825     0.9825  0.9825    0.9825 0.9954           0.9802          0.0128
+                SVM    0.9825     0.9825  0.9825    0.9825 0.9950           0.9714          0.0179
+      Random Forest    0.9561     0.9561  0.9561    0.9560 0.9939           0.9538          0.0235
+        Naive Bayes    0.9298     0.9298  0.9298    0.9298 0.9868           0.9319          0.0044
+K-Nearest Neighbors    0.9561     0.9561  0.9561    0.9560 0.9788           0.9670          0.0209
+      Decision Tree    0.9123     0.9161  0.9123    0.9130 0.9157           0.9099          0.0189
+
+BEST MODEL: Logistic Regression
+------------------------------
+Accuracy: 0.9825
+Precision: 0.9825
+Recall: 0.9825
+F1-Score: 0.9825
+AUC: 0.9954
+
+RESULTS:
+---------------
+• All models successfully trained and evaluated.
+• ROC curves and confusion matrices generated.
+• Feature importance analyzed.
+• Hyperparameter optimization performed.
+• Interactive dashboard created.
+
+OUTPUT FILES:
+--------------------
+• data_overview.png - Data overview
+• correlation_matrix.png - Correlation matrix
+• individual_roc_curves.png - Individual ROC curves
+• confusion_matrices.png - Confusion matrices
+• model_comparison.png - Model comparison
+• feature_importance.png - Feature importance
+• interactive_dashboard.html - Interactive dashboard
+• best_model_Logistic_Regression.joblib - Best model
