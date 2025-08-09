@@ -1,4 +1,4 @@
-# 🎯 Breast Cancer Classification with Multiple Machine Learning Models
+#  Breast Cancer Classification with Multiple Machine Learning Models
 
 <div align="center">
 
@@ -17,39 +17,39 @@
 ---
 
 <div align="center">
-<h3>🔬 A comprehensive machine learning analysis system that performs <strong>automatic breast cancer diagnosis classification</strong> using <strong>6 different machine learning algorithms</strong> on the <strong>Wisconsin Breast Cancer</strong> dataset.</h3>
+<h3> A comprehensive machine learning analysis system that performs <strong>automatic breast cancer diagnosis classification</strong> using <strong>6 different machine learning algorithms</strong> on the <strong>Wisconsin Breast Cancer</strong> dataset.</h3>
 </div>
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 <details>
 <summary>Click to expand</summary>
 
-- [🌟 Features](#-features)
-- [🚀 Quick Start](#-quick-start)
-- [💻 Installation](#-installation)
-- [📖 Usage](#-usage)
-- [🏗️ Project Structure](#️-project-structure)
-- [🤖 Models](#-models)
-- [📊 Results](#-results)
-- [🔬 Analysis Pipeline](#-analysis-pipeline)
-- [📈 Visualizations](#-visualizations)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+- [ Features](#-features)
+- [ Quick Start](#-quick-start)
+- [ Installation](#-installation)
+- [ Usage](#-usage)
+- [ Project Structure](#️-project-structure)
+- [ Models](#-models)
+- [ Results](#-results)
+- [ Analysis Pipeline](#-analysis-pipeline)
+- [ Visualizations](#-visualizations)
+- [ Contributing](#-contributing)
+- [ License](#-license)
 
 </details>
 
 ---
 
-## 🌟 Features
+##  Features
 
 <table>
 <tr>
 <td width="33%">
 
-### 🤖 Machine Learning Models
+###  Machine Learning Models
 - **Random Forest Classifier** - Ensemble learning with decision trees
 - **Logistic Regression** - Linear classification with regularization
 - **Decision Tree Classifier** - Interpretable tree-based model
@@ -60,7 +60,7 @@
 </td>
 <td width="33%">
 
-### 📊 Advanced Analysis
+###  Advanced Analysis
 - **Exploratory Data Analysis (EDA)** - Comprehensive data exploration
 - **Hyperparameter Optimization** - GridSearchCV with cross-validation
 - **Cross-Validation** - 5-fold stratified CV for robust evaluation
@@ -71,7 +71,7 @@
 </td>
 <td width="34%">
 
-### 📈 Rich Visualizations
+###  Rich Visualizations
 - **Interactive Dashboard** (Plotly) - Dynamic model exploration
 - **Individual ROC Curves** - Separate curves for each model
 - **Confusion Matrix Heatmaps** - Classification accuracy visualization
@@ -85,11 +85,11 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 <div align="center">
 
-**🎯 Get started in less than 5 minutes!**
+** Get started in less than 5 minutes!**
 
 </div>
 
@@ -107,13 +107,13 @@ python main.py
 
 <div align="center">
 
-**✅ That's it! Your analysis results will be saved in the `results/` directory.**
+** That's it! Your analysis results will be saved in the `results/` directory.**
 
 </div>
 
 ---
 
-## 💻 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -140,7 +140,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Complete Analysis Pipeline
 ```bash
@@ -166,67 +166,67 @@ python tests/test_modules.py
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Breast-Cancer-Classification-with-Multiple-ML-Models/
 │
-├── 📊 data/
+├──  data/
 │   └── breast-cancer.csv          # Main dataset
 │
-├── 🧪 src/
+├──  src/
 │   ├── __init__.py
 │   ├── data_processor.py          # Data processing module
 │   ├── model_trainer.py           # Model training module
 │   └── visualizer.py              # Visualization module
 │
-├── 📓 notebooks/
+├──  notebooks/
 │   └── breast_cancer_eda.ipynb    # Exploratory data analysis
 │
-├── 🧪 tests/
+├──  tests/
 │   └── test_modules.py            # Unit tests
 │
-├── 📈 results/
+├──  results/
 │   ├── *.png                      # Chart outputs
 │   ├── *.html                     # Interactive dashboard
 │   ├── *.joblib                   # Saved models
 │   └── final_report.txt           # Detailed report
 │
-├── 📋 requirements.txt            # Python dependencies
-├── 🚀 main.py                     # Main application
-└── 📖 README.md                   # This file
+├──  requirements.txt            # Python dependencies
+├──  main.py                     # Main application
+└──  README.md                   # This file
 ```
 
 ---
 
-## 🤖 Models
+##  Models
 
 <div align="center">
 
-| 🔮 Model | 📝 Description | ⭐ Strengths |
+|  Model |  Description |  Strengths |
 |:--------:|:---------------|:-------------|
-| **🌲 Random Forest** | Ensemble learning algorithm | Resistant to overfitting, feature importance |
-| **📈 Logistic Regression** | Linear classification | Fast, interpretable |
-| **🌳 Decision Tree** | Tree-based decision making | Visual, interpretable |
-| **🎯 SVM** | Maximum margin classifier | High-dimensional data |
-| **👥 KNN** | Neighborhood-based | Simple, effective |
-| **🧠 Naive Bayes** | Probabilistic classification | Fast, requires less data |
+| **Random Forest** | Ensemble learning algorithm | Resistant to overfitting, feature importance |
+| **Logistic Regression** | Linear classification | Fast, interpretable |
+| **Decision Tree** | Tree-based decision making | Visual, interpretable |
+| **SVM** | Maximum margin classifier | High-dimensional data |
+| **KNN** | Neighborhood-based | Simple, effective |
+| **Naive Bayes** | Probabilistic classification | Fast, requires less data |
 
 </div>
 
 ---
 
-## 📊 Results
+##  Results
 
 <div align="center">
 
-### 📈 Model Performance Metrics
+###  Model Performance Metrics
 
-🎯 **Accuracy** • 🔍 **Precision** • 📢 **Recall** • ⚖️ **F1-Score** • �� **ROC-AUC**
+**Accuracy** •  **Precision** •  **Recall** •  **F1-Score** •  **ROC-AUC**
 
 </div>
 
-### 💡 Sample Output
+###  Sample Output
 ```
 📊 MODEL PERFORMANCE SUMMARY:
 ================================================
@@ -238,9 +238,9 @@ Logistic Regression  0.9474    0.9480     0.9474  0.9474     0.9850
 
 <div align="center">
 
-### 📁 Output Files
+###  Output Files
 
-| 📊 **Visualizations** | 🌐 **Interactive Dashboard** | 🤖 **Models** | 📄 **Report** |
+|  **Visualizations** |  **Interactive Dashboard** |  **Models** |  **Report** |
 |:---------------------:|:-----------------------------:|:--------------:|:--------------:|
 | Charts in PNG format | HTML format | Saved in JobLib format | Detailed analysis in TXT format |
 
@@ -248,7 +248,7 @@ Logistic Regression  0.9474    0.9480     0.9474  0.9474     0.9850
 
 ---
 
-## 🔬 Analysis Pipeline
+##  Analysis Pipeline
 
 ### Data Preprocessing
 - Missing value checking
@@ -269,7 +269,7 @@ Logistic Regression  0.9474    0.9480     0.9474  0.9474     0.9850
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 The project generates comprehensive visualizations including:
 
@@ -282,7 +282,7 @@ The project generates comprehensive visualizations including:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -292,23 +292,23 @@ The project generates comprehensive visualizations including:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 Authors
+##  Authors
 
-- 🚀 **Developed by** - [Ozan İdgü](https://github.com/idguozan)
+-  **Developed by** - [Ozan İdgü](https://github.com/idguozan)
 
-## 📅 Development Timeline
+##  Development Timeline
 
 This project was developed by **Ozan İdgü** between **February 12, 2025** and **March 20, 2025**.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Researchers who contributed to the Wisconsin Breast Cancer Database
 - Scikit-learn community
@@ -318,7 +318,7 @@ This project was developed by **Ozan İdgü** between **February 12, 2025** and 
 
 <div align="center">
 
-### ⭐ **If you like this project, don't forget to give it a star!** ⭐
+###  **If you like this project, don't forget to give it a star!** ⭐
 
 ---
 
